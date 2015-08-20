@@ -1,0 +1,433 @@
+#rightPanle {
+    height: 711px;
+    width: 1180px;
+    margin-left: 222px;
+}
+
+#rightPanle .rightPanle_main {
+    padding: 12px;
+    padding: 12px;
+    margin-top: 10px;
+    background-image: url("../img/teac/bg.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: left top;
+}
+
+#rightPanle .teacher {
+    position: absolute;
+    z-index: 105;
+}
+
+#rightPanle .teacher.one {
+    width: 55.946517%;
+    height: 54.578755%;
+    left: 0;
+    top: 0;
+}
+
+#rightPanle .teacher.two {
+    width: 17.804363%;
+    height: 44.688645%;
+    left: 55.946517%;
+    margin-left: 15px;
+    top: 0px;
+}
+
+#rightPanle .teacher.three {
+    width: 17.874736%;
+    height: 44.688645%;
+    left: 76.706545%;
+    top: 0px;
+}
+
+#rightPanle .teacher.four {
+    width: 36.664321%;
+    height: 42.368742%;
+    left: 55.946517%;
+    margin-left: 15px;
+    top: 44.688645%;
+    margin-top: 10px;
+}
+
+#rightPanle .teacher.info {
+    width: 55.946517%;
+    height: 39.072039%;
+    left: 0px;
+    top: 54.578755%;
+    overflow-x: hidden;
+    margin-top: 10px;
+}
+
+#rightPanle .teacher a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#rightPanle .teacher a .bg {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    filter: alpha(opacity=78);
+    /*IE滤镜，透明度50%*/
+    
+    -moz-opacity: 0.78;
+    /*Firefox私有，透明度50%*/
+    
+    opacity: 0.78;
+    /*其他，透明度50%*/
+    
+    position: absolute;
+    z-index: 110;
+    display: inline-block;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#rightPanle .active a .bg,
+#rightPanle .teacher a:hover .bg {
+    filter: alpha(opacity=0);
+    /*IE滤镜，透明度50%*/
+    
+    -moz-opacity: 0;
+    /*Firefox私有，透明度50%*/
+    
+    opacity: 0;
+    /*其他，透明度50%*/
+}
+
+#rightPanle .teacher a img.teman {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    z-index: 109;
+}
+
+#rightPanle .teacher a h3 {
+    font-size: 16px;
+    width: 136px;
+    height: 40px;
+    background-image: url("../img/icon_spriter.png");
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 10px;
+    left: -8px;
+    z-index: 120;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+#rightPanle .active a h3 {
+    display: none;
+}
+
+#rightPanle .teacher.one a h3 {
+    background-position: -197px -455px;
+}
+
+#rightPanle .teacher.two a h3 {
+    background-position: -197px -495px;
+}
+
+#rightPanle .teacher.three a h3 {
+    background-position: -349px -448px;
+}
+
+#rightPanle .teacher.four a h3 {
+    background-position: -349px -495px;
+}
+
+#rightPanle .teacher.info h1 {
+    font-size: 55px;
+    line-height: 60px;
+    display: inline-block;
+}
+
+.teac-desc {
+    width: 100%;
+    height: 160px;
+    padding: 90px 5px 5px 5px;
+}
+
+.teac-desc p {
+    text-indent: 2em;
+    font-size: 12px;
+    line-height: 23px;
+    color: #232323;
+}
+
+#rightPanle .rightPanle_min .teacher.info h1 {
+    font-size: 30px;
+}
+
+.rightPanle_min .teac-desc {
+    padding-top: 15px;
+    height: auto;
+    padding-bottom: 0px;
+}
+
+.rightPanle_min .teac-desc p {
+    font-size: 13px;
+    line-height: 18px;
+}
+/*优秀教师*/
+
+.pro_catalog {
+    border: #d9d9d9 solid 1px;
+    margin: 32px 0px 0px 0px;
+    width: 559px;
+    margin-left: 222px;
+    background-color: #fbfbfb;
+    position: relative;
+    z-index: 105;
+    display: block;
+    height: 248px;
+}
+
+.pro_catalog a,
+.pro_catalog p,
+.pro_catalog dd,
+.pro_catalog dt,
+.pro_catalog span {
+    font-family: "微软雅黑", "Microsoft Yahei", Arial, Helvetica, sans-serif, "宋体" !important;
+}
+
+.pro_catalog_title {
+    position: relative;
+    height: 57px;
+    float: left;
+    width: 100%;
+}
+
+.pro_catalog_icon {
+    position: absolute;
+    width: 38px;
+    height: 57px;
+    background-color: #ddd;
+    top: -1px;
+    left: -38px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+}
+
+.catalog_wmzb .pro_catalog_icon {
+    background-color: #57b382;
+}
+
+.pro_catalog_icon i {
+    float: left;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    background-position: -11px -546px;
+    margin: 13px 0px 0px 5px;
+}
+
+.pro_catalog_text {
+    float: left;
+    display: inline;
+    font-size: 20px;
+    line-height: 57px;
+    text-indent: 20px;
+}
+
+.catalog_wmzb .pro_catalog_text {
+    color: #1e9e69;
+}
+
+a.pro_catalog_showmore,
+a.pro_catalog_closemore {
+    float: right;
+    display: inline;
+    color: #555;
+    border: #dadada solid 1px;
+    padding: 4px 20px;
+    margin: 15px 20px 0px 0px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 105;
+}
+
+.catalog_wmzb:hover a.pro_catalog_showmore,
+.catalog_wmzb:hover a.pro_catalog_closemore {
+    border: #57b382 solid 1px;
+    color: #1e9e69;
+}
+
+a.pro_catalog_showmore span,
+a.pro_catalog_closemore span {
+    float: left;
+    display: inline;
+    margin-left: 5px;
+}
+
+a.pro_catalog_showmore i,
+a.pro_catalog_closemore i {
+    float: left;
+    display: inline;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #c7c7c7;
+    margin: 3px 0px 0px 5px;
+}
+
+.catalog_wmzb.pro_catalog_active a.pro_catalog_showmore,
+.catalog_wmzb.pro_catalog_active a.pro_catalog_closemore {
+    border: #57b382 solid 1px;
+    color: #1e9e69;
+}
+
+.catalog_wmzb:hover a.pro_catalog_showmore i {
+    border-left: 5px solid #57b382;
+}
+
+.pro_catalog ul {
+    float: left;
+    display: inline;
+    padding: 0px 20px 10px 20px;
+}
+
+.pro_catalog ul li {
+    float: left;
+    display: inline;
+    width: 164px;
+    height: 164px;
+    position: relative;
+    background-color: #fff;
+    margin: 0px 12px 16px 0px;
+}
+
+.pro_catalog ul li.last {
+    margin-right: 0px;
+}
+
+.pro_catalog ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    z-index: 110;
+    font-size: 12px;
+}
+
+a.proc_item_img img {
+    width: 164px;
+}
+
+.proc_item_info {
+    position: absolute;
+    bottom: 28px;
+    background-color: rgba(255, 255, 255, .9);
+    _background-color: #fff;
+    *background-color: #fff;
+    background-color: #fff\0;
+    z-index: 120;
+}
+
+.proc_item_info dt {
+    border-top: #000 solid 4px;
+    height: 36px;
+    line-height: 36px;
+    width: 164px;
+    overflow: hidden;
+}
+
+.catalog_wmzb .proc_item_info dt {
+    border-top: #57b382 solid 4px;
+}
+
+.proc_item_info dt a {
+    color: #555;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.proc_item_info dd {
+    height: 0px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #555;
+    max-height: 70px;
+    padding: 0px 10px;
+}
+
+p.proc_item_bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 30px;
+    height: 40px;
+    line-height: 40px;
+    width: 164px;
+    color: #888;
+    background-color: #fff;
+}
+
+.proc_item_bottom_person {
+    float: left;
+    display: inline;
+    padding-left: 12px;
+    width: 91px;
+    overflow: hidden;
+}
+
+.proc_item_bottom_view {
+    float: right;
+    display: inline;
+    padding-right: 12px;
+}
+
+.catalog_wmzb:hover {
+    border: #d6e8de solid 1px;
+    background-color: #eaf5ef;
+}
+
+.catalog_wmzb li:hover dl {
+    background-color: #57b382;
+}
+
+.catalog_wmzb li:hover dl {
+    background-color: #57b382;
+}
+
+.catalog_wmzb li:hover dt a {
+    color: #fff;
+}
+
+.catalog_wmzb li:hover a.proc_item_img {
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.catalog_wmzb li:hover dd {
+    height: 56px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.catalog_wmzb li:hover p.proc_item_bottom {
+    background-color: #57b382;
+    color: #fff;
+}

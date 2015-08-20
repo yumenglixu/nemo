@@ -1,0 +1,284 @@
+.banner {
+    width: 582px;
+    height: 323px;
+    background-image: url("../img/notice/bg.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin: 14px auto;
+    padding-top: 13px;
+}
+
+.img_change {
+    position: relative;
+    width: 553px;
+    height: 295px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.img_list {
+    position: absolute;
+    width: 9999px;
+    height: 100%;
+    left: 0;
+}
+
+.img_list li {
+    float: left;
+    width: 553px;
+    height: 100%;
+}
+
+.img_list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.img_list li a img {
+    border: 0;
+    width: 553px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.play_num {
+    width: 354px;
+    height: 25px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.play_num li {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    float: left;
+    background-image: url("../img/icon_spriter.png");
+    background-repeat: no-repeat;
+    text-indent: -999em;
+    background-position: -152px -479px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 28px;
+}
+
+.play_num li.hover,
+.play_num li:hover {
+    background-position: -109px -479px;
+}
+
+.play_num li.last,
+.play_num li:last-child {
+    margin-right: 0px;
+}
+/*fa_lingting*/
+
+.fa_lingting {
+    width: 553px;
+    height: 200px;
+    border: #e7e7e7 solid 1px;
+    margin: 16px auto;
+    padding-bottom: 8px;
+    background-color: #fbfbfb;
+    position: relative;
+    z-index: 105;
+}
+
+.fa_lingting p,
+.fa_lingting span,
+.fa_lingting a {
+    font-family: "微软雅黑", "Microsoft Yahei", Arial, Helvetica, sans-serif, "宋体" !important;
+}
+
+.fa_lingting_title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #888;
+    text-indent: 20px;
+    height: 48px;
+    line-height: 48px;
+}
+
+.fa_lingting_title a {
+    color: #d65656;
+    padding-left: 12px;
+    font-size: 14px;
+}
+
+.fa_lingting_left {
+    float: left;
+    display: inline;
+    width: 176px;
+    margin-left: 16px;
+    position: relative;
+    margin-top: 4px;
+}
+
+.fa_lingting_right {
+    float: left;
+    display: inline;
+    width: 236px;
+}
+
+.fa_lingting_left a.fa_lingting_left_img {}
+
+.fa_lingting_left a img {
+    width: 156px;
+}
+
+.fa_lingting_left:hover a img {
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.fa_lingting_left_description {
+    position: absolute;
+    bottom: -16px;
+    left: 0px;
+    width: 156px;
+}
+
+.fa_lingting_left_description a {
+    float: left;
+    display: inline;
+    background-color: #d65656;
+    color: #fff;
+    padding: 8px 0px;
+}
+
+.iml_yundong .fa_lingting_left_description a {
+    background-color: #d65656;
+}
+
+p.fa_lingting_left_title {
+    float: left;
+    display: inline;
+    width: 156px;
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+p.fa_lingting_left_info {
+    display: none;
+    width: 156px;
+    height: 52px;
+    overflow: hidden;
+    line-height: 15px;
+    padding: 8px 12px 0px 12px;
+}
+
+.fa_lingting_left:hover p.fa_lingting_left_info {
+    display: inline-block;
+}
+
+.fa_lingting_right_oneitem {}
+
+a.fa_lingting_right_oneitem_title {
+    font-size: 18px;
+    color: #d65656;
+}
+
+a.fa_lingting_right_oneitem_title:hover {
+    text-decoration: underline;
+}
+
+p.fa_lingting_right_oneitem_info {
+    float: left;
+    display: inline;
+    font-size: 12px;
+    color: #999;
+    margin: 8px 0px 10px 0px;
+    line-height: 15px;
+    width: 100%;
+}
+
+.fa_lingting_right ul {}
+
+.fa_lingting_right ul li {
+    float: left;
+    display: inline;
+    width: 50%;
+    line-height: 22px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.fa_lingting_right ul li a {
+    color: #555;
+    font-size: 12px;
+}
+
+.fa_lingting_right ul li a:hover {
+    color: #d65656;
+}
+
+.fa_lingting_right ul li a span {
+    width: 100px;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.fa_lingting_right ul li a:hover span {
+    text-decoration: underline;
+}
+
+.fa_lingting_right ul li a i {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+    color: #999;
+}
+
+.fa_lingting_right ul li a:hover i {
+    color: #d65656;
+}
+
+.fa_lingting .oldman {
+    display: inline-block;
+    width: 133px;
+    height: 178px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+
+.fa_lingting .oldman a {
+    display: inline-block;
+    height: 100%;
+    height: 100%;
+}
+
+.fa_lingting .oldman span {
+    display: inline-block;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.fa_lingting .oldman span i {
+    display: block;
+    width: 106px;
+    height: 106px;
+    background-position: -274px -156px;
+    margin: 0 auto;
+}
+
+.fa_lingting .oldman .btn_laoren {
+    display: block;
+    width: 110px;
+    height: 25px;
+    margin: 0 auto;
+    line-height: 25px;
+    color: #555;
+    font-size: 14px;
+    background-position: -544px -116px;
+    text-align: center;
+    margin-top: 20px;
+}

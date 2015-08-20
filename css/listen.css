@@ -1,0 +1,381 @@
+
+
+#leftPanle .goback {
+    display: inline-block;
+    width: 133px;
+    height: 131px;
+    position: absolute;
+    right: 76px;
+    top: -32px;
+    z-index: 200;
+}
+
+#leftPanle .goback a {
+    display: inline-block;
+    height: 100%;
+    height: 100%;
+}
+
+#leftPanle .goback span {
+    display: inline-block;
+    width: 100%;
+}
+
+#leftPanle .goback span i {
+    display: block;
+    width: 105px;
+    height: 105px;
+    background-position: -169px -156px;
+    margin: 0 auto;
+}
+
+#leftPanle .goback .btn_laoren {
+    display: block;
+    width: 110px;
+    height: 31px;
+    margin: 0 auto;
+    line-height: 29px;
+    color: #555;
+    font-size: 14px;
+    background-position: -544px -116px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#leftPanle .goback .btn_laoren {
+    background: none;
+    background-color: #eaab85;
+    border-bottom: #df9a71 solid 3px;
+    color: #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#leftPanle .goback .btn_laoren .icon {
+    height: 28px;
+    width: 28px;
+    background-position: -515px -508px;
+    float: left;
+    margin-left: 5px;
+}
+
+#leftPanle .goback .btn_laoren .icon {
+    background-position: -515px -478px;
+}
+
+#leftPanle .child-menu {
+    width: 207px;
+    position: absolute;
+    right: 40px;
+    top: 138px;
+    z-index: 105;
+}
+
+#leftPanle .child-menu li {
+    width: 100%;
+    position: relative;
+    padding-left: 45px;
+    height: 50px;
+}
+
+#leftPanle .child-menu li a {
+    font-size: 14px;
+    color: #232323;
+    line-height: 34px;
+    width: 100%;
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    z-index: 105;
+}
+
+#leftPanle .child-menu li.active a,
+#leftPanle .child-menu li:hover a {
+    color: #31bbd0;
+    font-size: 17px;
+}
+
+#leftPanle .child-menu li i {
+    width: 34px;
+    height: 34px;
+    background-position: -173px -350px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 105;
+    display: none;
+}
+
+#leftPanle .child-menu li.active i,
+#leftPanle .child-menu li:hover i {
+    display: inline-block;
+}
+
+#leftPanle .child-menu li span {
+    display: none;
+    position: absolute;
+    z-index: 104;
+    background-position: -226px -348px;
+    width: 170px;
+    height: 34px;
+    top: 0px;
+    left: 37px;
+}
+
+#leftPanle .child-menu li.active span,
+#leftPanle .child-menu li:hover span {
+    display: inline-block;
+}
+
+#rightPanle {
+    width: 643px;
+    margin-left: 160px;
+    position: relative;
+    padding-top: 18px;
+}
+
+#rightPanle .shuzhi {
+    width: 668px;
+    height: 502px;
+    background-image: url("../img/shuzhi.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    position: absolute;
+    left: -50px;
+    bottom: -44px;
+    z-index: 105;
+}
+
+#rightPanle .content {
+    width: 628px;
+    height: auto;
+    background-color: #fcfcfc;
+    border-left: 1px solid #dbdcde;
+    border-top: 1px solid #dbdcde;
+    border-right: 1px solid #dbdcde;
+    margin: 0 auto;
+    position: relative;
+    z-index: 106;
+}
+
+#rightPanle .content .bottonLine {
+    width: 100%;
+    height: 15px;
+    background-image: url("../img/listen/bg.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: absolute;
+    bottom: -10px;
+}
+
+.content .con_banner {
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+    padding: 0 8px;
+    overflow-x: auto\0;
+    _overflow-x: auto;
+    *overflow-x: auto;
+    height: 105px\0;
+    *height: 105px;
+    _height: 105px;
+}
+
+.con_banner_main {
+    height: 100%;
+    width: 1000px;
+}
+
+.con_banner_main .con_banner_main_img {
+    width: 127px;
+    height: 70px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.content .con_banner .con_banner_main img {
+    width: 100%;
+}
+
+.content .con_art {
+    width: 100%;
+    margin-top: 66px;
+}
+
+.content .con_art .title {
+    width: 480px;
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    right: 0px;
+    padding-left: 15px;
+    background-image: url("../img/listen/title.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.content .con_art .con_main {
+    width: 410px;
+    margin: 0 auto;
+    padding-top: 65px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.content .con_art .con_main .con_main_a {
+    width: 100%;
+    display: block;
+    padding-right: 10px;
+}
+
+.content .con_art .con_main p {
+    width: 400px;
+    font-family: "微软雅黑", "Microsoft Yahei", Arial, Helvetica, sans-serif, "宋体" !important;
+    font-size: 12px;
+    line-height: 22px;
+    color: #232323;
+    text-indent: 2em;
+}
+
+.con_main_page {
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    clear: both;
+    position: relative;
+}
+
+.con_main_page a {
+    width: 49%;
+    color: #888;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.con_main_page a:hover {
+    color: #555;
+}
+
+.con_main_page a.pre {
+    float: left;
+    padding-left: 2%;
+    text-align: left;
+}
+
+.con_main_page a.next {
+    float: right;
+    padding-right: 2%;
+    text-align: right;
+}
+
+.con_main_page a.pre i {
+    float: left;
+    display: inline;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-right: 5px solid #c7c7c7;
+    margin: 15px 6px 0px 8px;
+}
+
+.con_main_page a.next i {
+    float: right;
+    display: inline;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #c7c7c7;
+    margin: 15px 6px 0px 8px;
+}
+
+.con_main_page a.pre:hover i {
+    border-right: 5px solid #555;
+}
+
+.con_main_page a.next:hover i {
+    border-left: 5px solid #555;
+}
+/*左右滑动*/
+
+.jquery-scrollbar-container {
+    position: relative;
+    overflow: hidden;
+    z-index: 1000;
+    padding-right: 10px
+}
+
+.jquery-scrollbar-content {
+    position: relative
+}
+
+.jquery-scrollbar-track-x,
+.jquery-scrollbar-track-y,
+.jquery-scrollbar-thumb-x,
+.jquery-scrollbar-thumb-y {
+    position: absolute;
+    border-radius: 4px;
+    transition: background .5s;
+    cursor: pointer;
+}
+
+.jquery-scrollbar-track-x,
+.jquery-scrollbar-track-y {
+    background: transparent
+}
+
+.jquery-scrollbar-track-x:hover,
+.jquery-scrollbar-track-y:hover,
+.jquery-scrollbar-track-x.active,
+.jquery-scrollbar-track-y.active {
+    background: rgba(221, 221, 221, 1)
+}
+
+.jquery-scrollbar-track-x {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 8px
+}
+
+.jquery-scrollbar-track-y {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 8px
+}
+
+.jquery-scrollbar-thumb-x,
+.jquery-scrollbar-thumb-y {
+    background: rgba(0, 0, 0, 0.1)
+}
+
+.jquery-scrollbar-track-x:hover .jquery-scrollbar-thumb-x,
+.jquery-scrollbar-track-y:hover .jquery-scrollbar-thumb-y,
+.jquery-scrollbar-track-x.active .jquery-scrollbar-thumb-x,
+.jquery-scrollbar-track-y.active .jquery-scrollbar-thumb-y {
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.jquery-scrollbar-thumb-x {
+    width: 0;
+    height: 8px;
+    bottom: 0;
+    left: 0
+}
+
+.jquery-scrollbar-thumb-y {
+    height: 0;
+    width: 8px;
+    top: 0;
+    right: 0
+}

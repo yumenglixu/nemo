@@ -1,0 +1,225 @@
+#step {
+    width: 520px;
+    min-height: 449px;
+    margin: 0 auto;
+    background-image: url("../img/admission/bg.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 44px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.step_item {
+    position: absolute;
+    z-index: 106;
+}
+
+.step_item_icon {
+    background-image: url("../img/admission/step.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+}
+
+.step_item_icon span {
+    color: #31bacf;
+    font-size: 12px;
+    display: inline-block;
+}
+/*step_item1*/
+
+.step_item1 {
+    width: 133px;
+    top: 114px;
+    left: -6px;
+}
+
+.step_item1 .step_item_icon {
+    height: 67px;
+    background-position: 0 0;
+}
+
+.step_item1 .step_item_icon span {
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.step_item1 .step_item_icon a.common-font {
+    color: #2b72b8;
+    font-size: 13px;
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.step_item1 .ch-title {
+    color: #31bacf;
+    margin-left: 15px;
+    display: inline-block;
+    width: 100%;
+}
+/*step_item2*/
+
+.step_item2 {
+    width: 112px;
+    left: 400px;
+    top: 40px;
+}
+
+.step_item2 .step_item_icon {
+    height: 74px;
+    background-position: -5px -76px;
+}
+
+.step_item2 .step_item_icon span {
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 27px;
+}
+
+.step_item2 .ch-title {
+    color: #31bacf;
+    margin-left: 37px;
+    display: inline-block;
+    width: 100%;
+}
+/*step_item3*/
+
+.step_item3 {
+    width: 98px;
+    left: 170px;
+    top: 193px;
+    -moz-transform: scale(0.8));
+    -webkit-transform: scale(0.8));
+    -o-transform: scale(0.8));
+    transform: scale(0.8);
+}
+
+.step_item3 .step_item_icon {
+    height: 71px;
+    background-position: -5px -160px;
+}
+
+.step_item3 .step_item_icon span {
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 23px;
+}
+
+.step_item3 .ch-title {
+    color: #31bacf;
+    margin-left: 14px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+/*step_item4*/
+
+.step_item4 {
+    width: 155px;
+    left: 9px;
+    top: 287px;
+    -moz-transform: scale(0.8));
+    -webkit-transform: scale(0.8));
+    -o-transform: scale(0.8));
+    transform: scale(0.8);
+    _width: 124px;
+    *width: 124px;
+    width: 124px\0;
+    _left: 14px;
+    *left: 14px;
+    left: 14px\0;
+    font-size: 10px;
+}
+
+.step_item4 .step_item_icon {
+    height: 81px;
+    background-position: 0px -231px;
+    _height: 64px;
+    *height: 64px;
+    height: 64px\0;
+    _background-position: 0px -395px;
+    *background-position: 0px -395px;
+    background-position: 0px -395px\0;
+}
+
+.step_item4 .step_item_icon span {
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 33px;
+    font-size: 10px;
+    _margin-top: 23px;
+    *margin-top: 23px;
+    margin-top: 23px\0;
+}
+
+.step_item4 .ch-title {
+    color: #31bacf;
+    margin-left: 12px;
+    display: inline-block;
+    width: 118px;
+    margin-bottom: 5px;
+}
+/*step_item5*/
+
+.step_item5 {
+    width: 171px;
+    left: 363px;
+  top: 301px;
+    -moz-transform: scale(0.8));
+    -webkit-transform: scale(0.8));
+    -o-transform: scale(0.8));
+    transform: scale(0.8);
+
+
+    _width: 140px;
+    *width: 140px;
+    width: 140px\0;
+    _top: 315px;
+    *top: 315px;
+    top: 315px\0;
+    _left: 367px;
+    *left: 367px;
+    left: 367px\0;
+    font-size: 10px;
+}
+
+.step_item5 .step_item_icon {
+    height: 76px;
+    background-position: -1px -321px;
+
+     _height: 58px;
+    *height: 58px;
+    height: 58px\0;
+    _background-position: 0px -465px;
+    *background-position: 0px -465px;
+    background-position: 0px -465px\0;
+}
+
+.step_item5 .step_item_icon span {
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 38px;
+_margin-top: 20px;
+    *margin-top: 20px;
+    margin-top: 20px\0;
+    font-size: 10px;
+}
+
+.step_item5 .ch-title {
+    color: #31bacf;
+    margin-left: 28px;
+    display: inline-block;
+    width: 121px;
+    margin-bottom: 5px;
+}

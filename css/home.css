@@ -1,0 +1,220 @@
+.timeLine {
+    width: 313px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100px;
+   
+}
+
+.timeLine ul {
+    width: 100%;
+    margin-top: -30px;
+}
+
+.timeLine ul li {
+    width: 100%;
+    height: 164px;
+    background-image: url("../img/home/timeLine.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 20px;
+    position: relative;
+    clear: both;
+}
+
+.timeLine ul li.first {
+    height: 180px;
+    padding-top: 36px;
+    float: left;
+    margin-top: -10px;
+}
+
+.timeLine ul li .time {
+    position: absolute;
+    width: 60px;
+    height: 51px;
+    top: 19px;
+    left: 34.5px;
+    -webkit-animation: arrowLeft .67s ease-in-out;
+    -moz-animation: arrowLeft .67s ease-in-out;
+    animation: arrowLeft .67s ease-in-out;
+}
+
+.timeLine ul li .timeIcon {
+    width: 41px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    background-image: url("../img/home/time_spriter.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.timeLine ul li .time .timeIcon1 {
+    background-position: 0 0;
+}
+
+.timeLine ul li .time .timeIcon2 {
+      background-position: 0 -39px;
+  height: 38px;
+}
+
+.timeLine ul li .time .timeIcon3 {
+      background-position: 0 -77px;
+  height: 37px;
+}
+
+.timeLine ul li .time .timeIcon4 {
+      background-position: 0px -113px;
+  height: 39px;
+}
+
+.timeLine ul li .time .timeIcon5 {
+      background-position: 0 -151px;
+  height: 37px;
+}
+
+.timeLine ul li .time .timeIcon6 {
+      background-position: 0 -190px;
+  height: 39px;
+}
+
+.timeLine ul li .time .timeIcon7 {
+      background-position: 0 -267px;
+  height: 40px;
+}
+
+.timeLine ul li .time .timeIcon8 {
+      background-position: 0 -267px;
+  height: 41px;
+}
+
+.timeLine ul li .time .timeIcon9 {
+     background-position: 0 -308px;
+  height: 39px;
+}
+
+.timeLine ul li .time b {
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    display: inline-block;
+    width: 100%;
+}
+
+.timeLine ul li .desc {
+    width: 180px;
+    height: auto;
+    position: absolute;
+    z-index: 105;
+    top: 40px;
+    left: 91px;
+}
+
+.timeLine ul li .desc1 {
+    top: 32px;
+}
+
+.timeLine ul li .desc .desc-title {
+    font-size: 15px;
+    color: #000;
+    padding-left: 22px;
+    display: inline-block;
+    width: 100%;
+    line-height: 19px;
+}
+
+.timeLine ul li .desc .desc-con {
+    color: #7b7b7b;
+    font-size: 12px;
+    line-height: 16px;
+    list-style-type: circle;
+    display: inline-block;
+    width: 100%;
+    clear: both;
+    height: 17px;
+}
+
+.timeLine ul li .desc .desc-con i {
+    color: #000;
+    font-size: 42px;
+    float: left;
+    line-height: 24px;
+    display: inline-block;
+    width: 33px;
+    text-align: center;
+    margin-left: 1px;
+}
+
+.timeLine ul li .timeBIcon {
+    -webkit-animation: arrowRight .77s ease-in-out;
+    -moz-animation: arrowRight .77s ease-in-out;
+    animation: arrowRight .77s ease-in-out;
+    z-index: 102;
+    display: inline-block;
+    position: absolute;
+}
+
+.timeLine ul li .timeBIcon1 {
+    width: 69px;
+    height: 49px;
+    bottom: 9px;
+    right: 33px;
+    background-position: -51px 0px;
+}
+
+.timeLine ul li .timeBIcon2 {
+    width: 53px;
+    height: 55px;
+    bottom: 12px;
+    right: 33px;
+    background-position: -57px -53px;
+}
+
+.timeLine ul li .timeBIcon3 {
+      width: 80px;
+  height: 36px;
+  bottom: 14px;
+  right: 35px;
+  background-position: -46px -110px;
+}
+
+.timeLine ul li .timeBIcon4 {
+    width: 93px;
+  height: 48px;
+  bottom: 12px;
+  right: 32px;
+  background-position: -41px -153px;
+}
+
+.timeLine ul li .timeBIcon5 {
+     width: 86px;
+  height: 57px;
+  bottom: 15px;
+  right: 30px;
+  background-position: -46px -206px;
+}
+
+.timeLine ul li .timeBIcon6 {
+      width: 68px;
+  height: 42px;
+  bottom: 20px;
+  right: 37px;
+  background-position: -53px -267px;
+}
+
+.timeLine ul li .timeBIcon7 {
+      width: 87px;
+  height: 90px;
+  bottom: 35px;
+  right: 17px;
+  background-position: -130px -4px;
+}
+
+.timeLine ul li .timeBIcon8 {
+      width: 35px;
+  height: 87px;
+  bottom: 23px;
+  right: 29px;
+  background-position: -151px -91px;
+}
